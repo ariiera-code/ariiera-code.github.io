@@ -23,10 +23,10 @@
 			<div class="nav-links" id="navLinks">
 				<ul>
 					<li><i class="fas fa-times" onclick="hideMenu()"></i></li>
-					<li><a href="">Home</a></li>
-					<li><a href="">Contact</a></li>
-					<li><a href="">Front-end</a></li>
-					<li><a href="">Backend</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#frontend">Front-end</a></li>
+					<li><a href="#backend">Backend</a></li>
 				</ul>
 			</div>
 			<i class="fas fa-bars" onclick="showMenu()"></i>
@@ -82,9 +82,9 @@
 		</div>
 	</section>
 
-	<section class="project-content">
-		<!-- Intro -->
-		<div class="intro-project-section">
+	<section class="project-content" id="frontend">
+		<!-- Intro frontend -->
+		<div class="project-intro-frontend-section">
 			<div class="project-head">
 				<h4 class="project-subtitle">ANALYSIS & PREPARATION</h4>
 				<a class="project-imp">Implementing UI</a>
@@ -141,12 +141,12 @@
 			</div>
 		</div>
 		<!-- Frontend Section -->
-		<div class="project-fronted-section">
+		<div class="project-fronteed-section">
 			<div class="project-head">
 				<h4 class="project-subtitle">UI & Components</h4>
 				<a class="project-imp">Design</a>
 			</div>
-			<div id="wrapper">
+			<div class="wrapper-frontend-frontpage">
 				<div class="row intro-frontend">
 					<div class="col-5 col-12-medium">
 						<div class="title-frontpages"><span>Front Pages.</span></div>
@@ -216,10 +216,77 @@
 				</div>
 			</div>
 		</div>
+		<!-- Backend Section -->
+		<div class="project-intro-backend-section" id="backend">
+			<div class="project-head-backend">
+				<h4 class="project-subtitle">ANALYSIS & PREPARATION</h4>
+				<a class="project-imp">Logical</a>
+			</div>
+			<div class="wrapper-backend">
+				<div class="row intro-frontend">
+					<div class="col-5 col-12-medium">
+						<div class="title-backend"><a class="smaller">Back-end Developer.</a></div>
+						<hr class="humble">
+						<p class="p-backend">As the <span class="bold-green">Back-end Developer</span>, I was responsible of
+							building imaginary
+							website function. By using the <span class="bold-green">MVC concept</span> makes the website more secure
+							than using php
+							functions stored in
+							the UI.</p>
+						<p class="p-backend">With this MVC concept, the website seems to have <span class="bold-green">separate
+								sections</span>
+							and can be developed
+							individually. So, the website creation process can be done <span class="bold-green">faster</span> because
+							the I can
+							focus more on
+							working on just one part. </p>
+					</div>
+					<div class="col-7 col-12-medium">
+						<a href="" class="image fit img-shadow"><img src="images/shoppingskuy-thumbnail.jpg" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="project-backend-section">
+			<div class="project-head-backend2">
+				<h4 class="project-subtitle">Implement & Executing</h4>
+				<a class="project-imp">Function</a>
+			</div>
+			<div id="wrapper">
+				<div class="row intro-frontend">
+					<div class="col-5 col-12-medium">
+						<div class="title-backend"><a>Auth System.</a></div>
+						<p class="p-backend">User authentication is very common in modern web application. It is a <span
+								class="bold-oranges">security mechanism</span> that is used to restrict unauthorized access to
+							member-only
+							areas and tools on a site.</p>
+						<p class="p-backend">In this project, i implemented some of the core features that are required to build a
+							complete
+							login and registration system with <span class="bold-oranges">PHP</span> & <span
+								class="bold-oranges">PDO</span></p>
+						<ul class="ul-loginui">
+							<li>PDO database connection with PHP project</li>
+							<li>PHP server-side validation system</li>
+							<li>Handled error messages</li>
+							<li>Secured a password with the password hash mechanism</li>
+							<li>Password verification</li>
+							<li>Display logged-in user’s data using PHP session</li>
+							<li>Logout and destroying the session</li>
+						</ul>
+					</div>
+					<div class="col-7 col-12-medium">
+						<a href="" class="image fit img-shadow"><img src="images/shoppingskuy-5.png" alt="" /></a>
+					</div>
+					<div class="title-backend" style="margin:2rem auto 0 auto;"><a>The Project is Still <span
+								class="bold-oranges">On-Going.</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
-	<!-- Wrapper -->
-	<!-- Wrapper -->
-	<div id="wrapper">
+
+	<!-- Footer -->
+	<div id="wrapper" style="padding: 0.5em 4.5em;">
 
 		<!-- Footer -->
 		<section id="footer">
@@ -235,6 +302,18 @@
 			<p class="copyright">&copy; 2021, Nibros Ari Wibowo.</p>
 		</section>
 
+	</div>
+
+	<!-- Modal - Contact -->
+	<div class="cssmodal dialog" id="contact" style="text-align: center;">
+		<a href="#/" class="veil"></a>
+		<figure>
+			<h2 style="padding-top: 1rem;">Contact<a href="#/" class="smallclose icon solid fa-times"
+					aria-label="Close Modal Box" style="padding:1rem;"></a></h2>
+			<button class="button fit icon solid fa-envelope">thankyounibros@gmail.com</button>
+			<a href="https://github.com/ariiera-code/shoppingskuyyy" class="button fit icon brands fa-github"
+				target="__blank">ariiera-code</a>
+		</figure>
 	</div>
 
 	<!-- Scripts -->
