@@ -123,13 +123,15 @@ function topFunction() {
 }
 
 $(document).ready(function () {
-		$("button").click(function (event) {
+		$("#emailcopy").click(function (event) {
 				event.preventDefault();
 				CopyToClipboard("thankyounibros@gmail.com", true, "Email copied to clipboard");
 		});
 });
 
 function CopyToClipboard(value, showNotification, notificationText) {
+		var popup = document.getElementById("emailPopup");
+		popup.classList.toggle("show");
 		var $temp = $("<input>");
 		$("body").append($temp);
 		$temp.val(value).select();
