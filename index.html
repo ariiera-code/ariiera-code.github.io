@@ -17,7 +17,7 @@
 
 		<!-- Header -->
 		<header id="header">
-			<h1 style="font-size: 2rem;"><a href="index.html">NB<span style="color: #2ebaae;">A</span></a></h1>
+			<h1 style="font-size: 2rem; padding: 0;"><a href="index.html">NB<span style="color: #2ebaae;">A</span></a></h1>
 		</header>
 
 		<!-- Main -->
@@ -55,24 +55,27 @@
 				<header class="pad-body">
 					<h2>Nibros Ari Wibowo</h2>
 					<a href="#aboutme" class="button icon solid fa-user" for="modal-1">About Me</a>
-					<ul class="icons">
-						<li><a href="https://github.com/ariiera-code" class="icon brands fa-github"><span
+					<ul class="icons" style="padding: 0 0 0 0.5rem;">
+						<li><a href="https://github.com/ariiera-code" class="icon brands fa-github" target="__blank"><span
 									class="label">Github</span></a>
 						</li>
-						<li><a href="https://www.linkedin.com/in/ariiera/" class="icon brands fa-linkedin-in"><span
+						<li><a href="https://www.linkedin.com/in/ariiera/" class="icon brands fa-linkedin-in" target="__blank"><span
 									class="label">Linked-in</span></a></li>
 						<li>
 							<a href="javascript:void(0)" class="icon solid fa-envelope popup"
 								onclick='CopyToClipboard("thankyounibros@gmail.com", true, "Email copied to clipboard" )'>
 							</a>
 						</li>
+						<li style="padding: 0;"><a href="https://api.whatsapp.com/send?phone=62895329221824"
+								class="icon solid brands fa-whatsapp" target="__blank"></a></li>
+						<li>
 					</ul>
 				</header>
 			</section>
 
 			<!-- Mini Posts -->
 			<section>
-				<h2 style="font-size: 1.5rem;">Latest Works</h2>
+				<h2 style="font-size: 1.5rem;">Latest Projects</h2>
 				<div class="mini-posts">
 					<!-- Mini Post -->
 					<article class="mini-post">
@@ -106,18 +109,19 @@
 			<!-- Footer -->
 			<section id="footer" style="text-align: center;">
 				<ul class="icons">
-					<li><a href="https://github.com/ariiera-code" class="icon brands fa-github"><span
-								class="label">Github</span></a>
+					<li><a href="https://github.com/ariiera-code" class="icon brands fa-github" target="__blank"></a>
 					</li>
-					<li><a href="https://www.linkedin.com/in/ariiera/" class="icon brands fa-linkedin-in"><span
-								class="label">Linked-in</span></a></li>
+					<li><a href="https://www.linkedin.com/in/ariiera/" class="icon brands fa-linkedin-in" target="__blank"></a>
+					</li>
 					<li>
-						<a class="icon solid fa-envelope popup"
-							onclick='CopyToClipboard("thankyounibros@gmail.com", true, "Email copied to clipboard" )'
-							style="cursor: pointer">
+						<div href="thankyounibros@gmail.com" class="icon solid fa-envelope popup"
+							onclick='CopyToClipboard("thankyounibros@gmail.com", true, "Email copied to clipboard" )'>
 							<span class="popuptext" id="emailPopup">Email Copied!</span>
-						</a>
+						</div>
 					</li>
+					<li><a href="https://api.whatsapp.com/send?phone=62895329221824" class="icon solid brands fa-whatsapp"
+							target="__blank"></a></li>
+					<li>
 				</ul>
 				<p class="copyright">&copy; 2021, Nibros Ari Wibowo.</p>
 			</section>
