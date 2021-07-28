@@ -4937,8 +4937,9 @@ body{
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 180%;
+  left: 150%;
   margin-left: -80px;
+	cursor: pointer;
 }
 
 /* Popup arrow */
@@ -4951,6 +4952,7 @@ body{
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
+	cursor: pointer;
 }
 
 /* Toggle this class - hide and show the popup */
